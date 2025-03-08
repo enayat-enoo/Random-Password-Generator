@@ -25,7 +25,7 @@ const PasswordGenerator = () => {
   }
   useEffect(()=>{
     passwordGenerator();
-  },[length,charAllowed,numbersAllowed])
+  },[length,charAllowed,numbersAllowed,passwordGenerator])
   return (
     <div className="max-w-md mx-auto p-6 bg-gray-100 rounded-lg shadow-md">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6">Password Generator</h2>
